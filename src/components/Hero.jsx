@@ -4,8 +4,8 @@ const Hero = () => {
     <section className=" text-white bg-[url(https://shorturl.at/aeist)] bg-contain bg-top">
       <div className="w-1/3 relative h-[40vw]">
         <div className="absolute bottom-[20%] left-[10%]">
-          <img src={titleImg} alt="title img" />
-          <p className="text-lg">
+          <img className=" cursor-pointer" src={titleImg} alt="title img" />
+          <p className="text-lg  cursor-pointer">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
             repudiandae.
           </p>
